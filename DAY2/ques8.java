@@ -11,10 +11,11 @@ public class ques8
         {
             d=t%10;
             rev=(rev*10)+d;
+            t=t/10;
         }
         if(rev==n)
         {
-            System.out.println(n+"is a palindrome number");
+            System.out.println(n+" is a palindrome number");
         }
         else
         {
