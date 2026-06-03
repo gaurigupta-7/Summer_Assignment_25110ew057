@@ -17,7 +17,7 @@ public class ques15
         while(t!=0)
         {
             d=t%10;
-            arm=arm+Math.pow(d,c);
+            arm=arm+(int)Math.pow(d,c);
             t=t/10;
 
         }
