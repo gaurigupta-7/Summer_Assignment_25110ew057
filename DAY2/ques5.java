@@ -6,7 +6,7 @@ public class ques5
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number to find the sum of digits");
         int n=sc.nextInt();
-        int d,sum=0;
+        int d,sum=0, t=n;
         while(n!=0)
         {
             d=n%10;
