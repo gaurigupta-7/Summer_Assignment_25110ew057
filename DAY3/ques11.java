@@ -3,7 +3,7 @@ public class ques11
 {
     public static void main(String[] args)
     {
-        Scanner sc=new scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         System.out.println("enter two numbers to find GCD of");
         int a=sc.nextInt();
         int b=sc.nextInt();
