@@ -2,7 +2,7 @@ package DAY5;
 import java.util.*;
 public class ques17
 {
-    public static void main(String[] args);
+    public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number to check perfect number or not");
@@ -12,7 +12,7 @@ public class ques17
         {
             if(n%i==0)
             {
-                sum=sum=i;
+                sum=sum+i;
             }
         }
         if(sum==n)
