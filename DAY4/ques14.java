@@ -15,8 +15,8 @@ public class ques14
             third= first+ second;
             first= second;
             second= third;
-
-        }
-        System.out.println(third+"is the"+n+"th term of fibonacci series");
+              
+              }
+        System.out.println(third+"is the "+n+"th term of fibonacci series");
     }
 }
