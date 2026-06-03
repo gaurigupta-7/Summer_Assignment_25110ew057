@@ -9,6 +9,7 @@ public class ques14
         int first, second, third, i;
         first= -1;
         second= 1;
+        third =0;
         for(i=1;i<=n;i++)
         {
             third= first+ second;
