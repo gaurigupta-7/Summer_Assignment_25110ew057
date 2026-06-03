@@ -16,15 +16,20 @@ public class ques16
         {
             d=t%10;
             c++;
+            t=t/10;
         }
         t=i;
         while(t!=0)
         {
             d=t%10;
-            arm=arm+Math.pow(d,c);
+            arm=arm+(int)Math.pow(d,c);
+            t=t/10;
 
         }
-        System.out.println("Armstrong number of"+i+"="+arm);
+        if (arm==i){
+            
+            System.out.println(i+" is an armstorng number");
+        }
         }
     }
     
