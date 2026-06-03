@@ -6,7 +6,7 @@ public class ques6
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number to find reverse of");
         int n=sc.nextInt();
-        int rev=0,d;
+        int rev=0,d, t=n;
         while (n!=0)
         {
             d=n%10;
