@@ -11,8 +11,8 @@ public class ques5
         {
             d=n%10;
             sum=sum+d;
-
+            n=n/10;
         }
-        System.out.println("Sum of digits of"+n+"="+sum);
+        System.out.println("Sum of digits of "+t+" = "+sum);
     }
 }
