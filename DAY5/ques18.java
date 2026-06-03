@@ -9,7 +9,7 @@ public class ques18
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number to check strong number");
         int n=sc.nextInt();
-        int t=n, d, fact, i,s;
+        int t=n, d, fact, i,s=0;
         while(t!=0)
         {
             d=t%10;
@@ -19,6 +19,7 @@ public class ques18
                 fact=fact*i;
             }
             s=s+fact;
+            t=t/10;
         }
         if (s==n)
         {
