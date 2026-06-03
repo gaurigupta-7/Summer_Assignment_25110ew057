@@ -9,7 +9,7 @@ public class ques3
         int i,fact=1;
         for (i=1;i<=n;i++)
         {
-            fact+fact*i;
+            fact=fact*i;
         }
         System.out.println("Factorial of"+n+"="+fact);
         
