@@ -11,7 +11,8 @@ public class ques6
         {
             d=n%10;
             rev=(rev*10)+d;
+            n=n/10;
         }
-        System.out.println("Reverse of"+n+"="+rev);
+        System.out.println("Reverse of "+t+" = "+rev);
     }
 }
