@@ -21,13 +21,13 @@ public class ques15
             t=t/10;
 
         }
-        if (n==arm)
+        if (arm==n)
         {
-            System.out.println(n+" is an armstrong number");
+            System.out.println(n+"is an armstrong number");
         }
         else
         {
-            System.out.println(n+" is not an armstrong number");
+            System.out.println(n+"is not an armstrong number");
         }
     }
 }

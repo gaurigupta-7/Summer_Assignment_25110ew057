@@ -1,4 +1,4 @@
-package DAY1;
+
 
 import java.util.*;
 public class ques1
@@ -13,7 +13,7 @@ public class ques1
         {
             sum=sum+i;
         }
-        System.out.println("Sum of first natural"+n+"numbers="+sum);
+        System.out.println("Sum of first natural "+n+" numbers="+sum);
         sc.close();
     }
 }

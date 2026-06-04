@@ -5,7 +5,7 @@ public class ques16
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the starting of the range");
-        int rs=sc.nextInt;
+        int rs=sc.nextInt();
         System.out.println("Enter the ending of the range");
         int re=sc.nextInt();
         int i;
@@ -24,13 +24,13 @@ public class ques16
             d=t%10;
             arm=arm+(int)Math.pow(d,c);
             t=t/10;
-
         }
-        if (arm==i){
-            
-            System.out.println(i+" is an armstorng number");
+        if (arm==i)
+        {
+            System.out.println(i+"is an armstrong number");
         }
-        }
+        
     }
     
+}
 }

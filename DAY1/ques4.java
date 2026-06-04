@@ -12,8 +12,9 @@ public class ques4
             d=n%10;
             c++;
             n=n/10;
+
         }
-        System.out.println("Number of digits in "+t+" = "+c);
+        System.out.println("Number of digits in"+t+"="+c);
         
     }
 }

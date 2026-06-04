@@ -6,7 +6,7 @@ public class ques7
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number");
         int n=sc.nextInt();
-        int d,prod=1, t=n;
+        int d,prod=1,t=n;
         while (n!=0)
         {
             d=n%10;
