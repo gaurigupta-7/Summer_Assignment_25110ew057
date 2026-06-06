@@ -26,5 +26,6 @@ public class ques39
             System.out.println();
             sp--;
         }
+        sc.close();
     }
 }
