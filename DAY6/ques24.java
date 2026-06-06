@@ -9,7 +9,7 @@ public class ques24
         System.out.println("Enter the power to which the number is to be raised");
         int p=sc.nextInt();
         int i,t=n;
-        for (i=1;i<=p;i++)
+        for (i=1;i<p;i++)
         {
             n=n*t;
         }
