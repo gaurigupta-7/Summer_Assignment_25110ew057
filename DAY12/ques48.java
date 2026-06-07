@@ -1,5 +1,5 @@
 import java.util.*;
-public class ques
+public class ques48
 {
     static void perfectnum(int num)
     {
